@@ -1,0 +1,22 @@
+.logo {
+  width: 50px;
+  align-self: 1/1;
+  background-color: $primary;
+  border-radius: 53%;
+}
+.nav-link {
+  font-size: 1rem;
+  font-weight: 500;
+  padding: 0.4rem 1rem;
+  border-radius: 50rem;
+  transition: background-color 0.3s ease, color 0.3s ease;
+
+  &:hover {
+    background-color: #4361ee4d; 
+ 
+  }
+
+  
+}
+
+

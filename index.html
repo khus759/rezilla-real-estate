@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Landing page for the Rezilla Real Estate website.">
+  <meta name="author" content="Khushi">
+  <meta name="keywords"
+    content=" HTML, CSS, Bootstrap, Saas Landing Page, Real Estate, Property Listing, Responsive Design">
+
+  <title>Rezilla-Real-Estate</title>
+
+  <!-- Font-family-link -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+
+  <!-- Bootstrap link -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+
+  <!-- Bootstrap icons link -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+
+  <!-- Css style link -->
+  <link rel="stylesheet" href="./css/style.min.css">
+</head>
+
+<body>
+  <header>
+    <!-- Header Top Bar -->
+
+    <div class="bg-primary d-none d-md-block">
+      <div class="container text-white py-2 px-3 d-flex justify-content-between align-items-center">
+        <div class="location">
+          <i class="bi bi-geo-alt-fill me-1"></i> Rezilla, 18 Grattan St, Brooklyn
+        </div>
+        <div class="contact d-none d-md-flex align-items-center gap-3">
+          <div><i class="bi bi-telephone-fill me-1"></i> +1 206-214-2298</div>
+          <div><i class="bi bi-envelope-fill me-1"></i> support@rezilla.com</div>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- Navigation-section-start -->
+
+    <nav class="navbar navbar-expand-lg bg-white py-3 ">
+      <div class="container d-flex align-items-center justify-content-between">
+
+        <!-- Mobile: Logo and Brand -->
+        <div class="d-lg-none d-flex align-items-center">
+          <div class="logo p-2">
+            <img src="./assets/icons/logo_house.svg" alt="Rezilla Logo" class="ms-1" width="32" height="32" />
+          </div>
+          <a class="navbar-brand fs-6 fw-bold mb-0" href="#">Rezilla</a>
+        </div>
+
+        <!-- Toggle Button (Mobile) -->
+        <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar"
+          aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Collapse: Nav Links + Mobile Login/Add Listing -->
+        <div class="collapse navbar-collapse d-lg-block flex-grow-1" id="mainNavbar">
+          <ul class="navbar-nav gap-lg-3 text-center">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Listings</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Blogs</a>
+            </li>
+
+            <!-- Divider before mobile-only buttons -->
+            <hr class="d-lg-none my-3">
+
+            <!-- Mobile-only: Login/Register -->
+            <li class="nav-item d-lg-none mb-2">
+              <a href="#" class="nav-link text-dark d-flex align-items-center justify-content-center">
+                <i class="bi bi-person-circle fs-5 me-1"></i> Login/Register
+              </a>
+            </li>
+
+            <!-- Mobile-only: Add Listing -->
+            <li class="nav-item d-lg-none text-center">
+              <a href="#" class="btn btn-primary rounded-pill d-inline-flex align-items-center px-3">
+                <img src="./assets/icons/logo_house.svg" alt="Add Icon" width="20" class="me-2" />
+                Add Listing
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Desktop: Center Logo -->
+        <div class="d-none d-lg-block position-absolute start-50 translate-middle-x">
+          <div class="d-flex align-items-center">
+            <div class="logo p-2">
+              <img src="./assets/icons/logo_house.svg" alt="Rezilla Logo" class="ms-1" />
+            </div>
+            <a class="navbar-brand fs-6 fw-bold mb-0" href="#">Rezilla</a>
+          </div>
+        </div>
+
+        <!-- Desktop: Right Side Buttons -->
+        <div class="d-none d-lg-flex align-items-center gap-3">
+          <a href="#" class="text-dark text-decoration-none d-flex align-items-center">
+            <i class="bi bi-person-circle fs-5 me-1"></i> Login/Register
+          </a>
+          <a href="#" class="btn btn-primary rounded-pill d-flex align-items-center px-3">
+            <img src="./assets/icons/logo_house.svg" alt="Add Icon" width="20" class="me-2" />
+            Add Listing
+          </a>
+        </div>
+      </div>
+    </nav>
+
+
+
+    <!-- Navigation-section-end -->
+  </header>
+  <main>
+    <!-- Banner Section Start -->
+    <section class="hero-section py-5 position-relative overflow-hidden">
+      <div class="container">
+        <div class="row justify-content-between g-5">
+          <!-- Left: Carousel -->
+          <div class="col-lg-5">
+  <div id="propertyCarousel" class="carousel slide rounded-4 shadow" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./assets/images/banner-caresoul.webp" class="d-block w-100 rounded-4" alt="Luxury Room 1">
+      </div>
+      <div class="carousel-item">
+        <img src="./assets/images/banner-caresoul.webp" class="d-block w-100 rounded-4" alt="Luxury Room 2">
+      </div>
+      <div class="carousel-item">
+        <img src="./assets/images/banner-caresoul.webp" class="d-block w-100 rounded-4" alt="Luxury Room 3">
+      </div>
+      <div class="carousel-item">
+        <img src="./assets/images/banner-caresoul.webp" class="d-block w-100 rounded-4" alt="Luxury Room 4">
+      </div>
+    </div>
+
+    <!-- Keep arrows unchanged -->
+    <button class="carousel-control-prev position-absolute top-50 start-0 translate-middle" type="button" data-bs-target="#propertyCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon rounded-pill" aria-hidden="true"></span>
+    </button>
+    <button class="carousel-control-next position-absolute top-50 start-100 translate-middle" type="button" data-bs-target="#propertyCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon rounded-pill" aria-hidden="true"></span>
+    </button>
+  </div>
+
+  <!-- OUTSIDE INDICATORS (full width) -->
+  <div class="carousel-indicators-custom d-flex justify-content-center mt-2 ">
+    <button type="button" data-bs-target="#propertyCarousel" data-bs-slide-to="0" aria-label="Slide 1" ></button>
+    <button type="button" data-bs-target="#propertyCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#propertyCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    <button type="button" data-bs-target="#propertyCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+  </div>
+</div>
+
+
+          <!-- Right: Form with Tabs -->
+          <div class="col-lg-4">
+            <div class="card border-0 shadow rounded-4">
+              <div class="card-body p-4">
+                <ul class="nav nav-tabs nav-fill mb-3" id="propertyTab" role="tablist">
+                  <li class="nav-item" role="presentation">
+                    <button class="nav-link active" id="sale-tab" data-bs-toggle="tab" data-bs-target="#sale"
+                      type="button" role="tab" aria-controls="sale" aria-selected="true">For Sale</button>
+                  </li>
+                  <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="rent-tab" data-bs-toggle="tab" data-bs-target="#rent" type="button"
+                      role="tab" aria-controls="rent" aria-selected="false">For Rent</button>
+                  </li>
+                </ul>
+                <div class="tab-content" id="propertyTabContent">
+                  <!-- Sale Form -->
+                  <div class="tab-pane fade show active" id="sale" role="tabpanel" aria-labelledby="sale-tab">
+                    <form>
+                      <div class="mb-3">
+                        <input type="text" class="form-control" placeholder="New York, San Francisco, etc">
+                      </div>
+                      <div class="mb-3">
+                        <select class="form-select">
+                          <option selected disabled>Select Property Type</option>
+                          <option>Apartment</option>
+                          <option>Villa</option>
+                        </select>
+                      </div>
+                      <div class="mb-3">
+                        <select class="form-select">
+                          <option selected disabled>Select Rooms</option>
+                          <option>1 Room</option>
+                          <option>2 Rooms</option>
+                          <option>3+ Rooms</option>
+                        </select>
+                      </div>
+                      <div class="mb-3">
+                        <a href="#" class="text-primary small">🔍 Advance Search</a>
+                      </div>
+                      <button class="btn btn-primary w-100 rounded-pill">Search</button>
+                    </form>
+                  </div>
+                  <!-- Rent Form -->
+                  <div class="tab-pane fade" id="rent" role="tabpanel" aria-labelledby="rent-tab">
+                    <!-- Similar structure -->
+                    <form>
+                      <div class="mb-3">
+                        <input type="text" class="form-control" placeholder="City, Neighborhood, etc">
+                      </div>
+                      <div class="mb-3">
+                        <select class="form-select">
+                          <option selected disabled>Select Property Type</option>
+                          <option>Studio</option>
+                          <option>House</option>
+                        </select>
+                      </div>
+                      <div class="mb-3">
+                        <select class="form-select">
+                          <option selected disabled>Number of Rooms</option>
+                          <option>1</option>
+                          <option>2</option>
+                        </select>
+                      </div>
+                      <div class="mb-3">
+                        <a href="#" class="text-primary small">🔍 Advance Search</a>
+                      </div>
+                      <button class="btn btn-primary w-100 rounded-pill">Search</button>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Pills Centered -->
+        <div class="d-flex flex-column flex-md-row justify-content-center align-items-center gap-3 mt-5">
+          <div class="rounded-pill bg-white px-4 py-2 shadow-sm d-flex align-items-center gap-2">
+            <img src="images/users.png" width="30" alt="Happy Customers">
+            <span class="fw-medium">72k+ Happy Customers</span>
+          </div>
+          <div class="rounded-pill bg-white px-4 py-2 shadow-sm d-flex align-items-center gap-2">
+            <img src="images/houses.png" width="30" alt="Listings">
+            <span class="fw-medium">200+ New Listings Everyday!</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Banner Section End -->
+
+  </main>
+  <footer></footer>
+
+  <!-- Bootstrap JS  -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+    crossorigin="anonymous"></script>
+
+  <!-- Your custom JavaScript -->
+  <script src="./js/index.js"></script>
+
+</body>
+
+</html>

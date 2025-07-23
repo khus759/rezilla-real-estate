@@ -1,0 +1,32 @@
+{
+  "name": "y",
+  "version": "1.0.0",
+  "description": "Landing page for the Rezilla Real Estate website built with HTML, CSS, SCSS, Bootstrap, and JavaScript.",
+  "keywords": [
+    "real-estate",
+    "html",
+    "css",
+    "scss",
+    "bootstrap",
+    "landing-page",
+    "website"
+  ],
+  "homepage": "https://github.com/khus759/rezilla-real-estate#readme",
+  "bugs": {
+    "url": "https://github.com/khus759/rezilla-real-estate/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/khus759/rezilla-real-estate.git"
+  },
+  "license": "ISC",
+  "author": "Khushi Kumari Gupta",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.7"
+  }
+}
