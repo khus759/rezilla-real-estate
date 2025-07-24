@@ -27,6 +27,7 @@
 
   <!-- Css style link -->
   <link rel="stylesheet" href="./css/style.min.css">
+
 </head>
 
 <body>
@@ -36,11 +37,11 @@
     <div class="bg-primary d-none d-md-block">
       <div class="container text-white py-2 px-3 d-flex justify-content-between align-items-center">
         <div class="location">
-          <i class="bi bi-geo-alt-fill me-1"></i> Rezilla, 18 Grattan St, Brooklyn
+          <i class="bi bi-geo-alt me-1"></i>Rezilla, 18 Grattan St, Brooklyn
         </div>
         <div class="contact d-none d-md-flex align-items-center gap-3">
-          <div><i class="bi bi-telephone-fill me-1"></i> +1 206-214-2298</div>
-          <div><i class="bi bi-envelope-fill me-1"></i> support@rezilla.com</div>
+          <div><img src="./assets/icons/icon-phone.svg" alt="icon-phone"> +1 206-214-2298</div>
+          <div><img src="./assets/icons/icon-mail.svg" alt="icon-envelope"> support@rezilla.com</div>
 
         </div>
       </div>
@@ -48,24 +49,23 @@
 
     <!-- Navigation-section-start -->
 
-    <nav class="navbar navbar-expand-lg bg-white py-3 ">
+    <nav class="navbar navbar-expand-lg bg-white py-lg-6 ">
       <div class="container d-flex align-items-center justify-content-between">
 
         <!-- Mobile: Logo and Brand -->
         <div class="d-lg-none d-flex align-items-center">
           <div class="logo p-2">
-            <img src="./assets/icons/logo_house.svg" alt="Rezilla Logo" class="ms-1" width="32" height="32" />
+            <img src="./assets/icons/logo-house.svg" alt="Rezilla Logo" class="ms-1" width="32" height="32" />
           </div>
-          <a class="navbar-brand fs-6 fw-bold mb-0" href="#">Rezilla</a>
+          <a class="navbar-brand fs-4 fw-semi-bold " href="#">Rezilla</a>
         </div>
 
-        <!-- Toggle Button (Mobile) -->
+        <!-- Toggle Button  -->
         <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar"
           aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
 
-        <!-- Collapse: Nav Links + Mobile Login/Add Listing -->
         <div class="collapse navbar-collapse d-lg-block flex-grow-1" id="mainNavbar">
           <ul class="navbar-nav gap-lg-3 text-center">
             <li class="nav-item">
@@ -97,7 +97,7 @@
             <!-- Mobile-only: Add Listing -->
             <li class="nav-item d-lg-none text-center">
               <a href="#" class="btn btn-primary rounded-pill d-inline-flex align-items-center px-3">
-                <img src="./assets/icons/logo_house.svg" alt="Add Icon" width="20" class="me-2" />
+                <img src="./assets/icons/logo-house.svg" alt="Add Icon" width="20" class="me-2" />
                 Add Listing
               </a>
             </li>
@@ -108,9 +108,9 @@
         <div class="d-none d-lg-block position-absolute start-50 translate-middle-x">
           <div class="d-flex align-items-center">
             <div class="logo p-2">
-              <img src="./assets/icons/logo_house.svg" alt="Rezilla Logo" class="ms-1" />
+              <img src="./assets/icons/logo-house.svg" alt="Rezilla Logo" class="ms-1" />
             </div>
-            <a class="navbar-brand fs-6 fw-bold mb-0" href="#">Rezilla</a>
+            <a class="navbar-brand fs-4 fw-semi-bold text-heading-light ms-1" href="#">Rezilla</a>
           </div>
         </div>
 
@@ -120,64 +120,73 @@
             <i class="bi bi-person-circle fs-5 me-1"></i> Login/Register
           </a>
           <a href="#" class="btn btn-primary rounded-pill d-flex align-items-center px-3">
-            <img src="./assets/icons/logo_house.svg" alt="Add Icon" width="20" class="me-2" />
+            <img src="./assets/icons/logo-house.svg" alt="Add Icon" width="20" class="me-2" />
             Add Listing
           </a>
         </div>
       </div>
     </nav>
 
-
-
     <!-- Navigation-section-end -->
   </header>
   <main>
     <!-- Banner Section Start -->
-    <section class="hero-section py-5 position-relative overflow-hidden">
+    <section class="hero-section py-5 position-relative">
       <div class="container">
-        <div class="row justify-content-between g-5">
+        <div class="row justify-content-evenly g-5">
           <!-- Left: Carousel -->
-          <div class="col-lg-5">
-  <div id="propertyCarousel" class="carousel slide rounded-4 shadow" data-bs-ride="carousel">
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img src="./assets/images/banner-caresoul.webp" class="d-block w-100 rounded-4" alt="Luxury Room 1">
-      </div>
-      <div class="carousel-item">
-        <img src="./assets/images/banner-caresoul.webp" class="d-block w-100 rounded-4" alt="Luxury Room 2">
-      </div>
-      <div class="carousel-item">
-        <img src="./assets/images/banner-caresoul.webp" class="d-block w-100 rounded-4" alt="Luxury Room 3">
-      </div>
-      <div class="carousel-item">
-        <img src="./assets/images/banner-caresoul.webp" class="d-block w-100 rounded-4" alt="Luxury Room 4">
-      </div>
-    </div>
+          <div class="col-lg-6 pt-lg-90">
+            <p class="fs-4 text-accent letter-spacing mb-lg-6">REAL ESTATE</p>
+            <h1 class="mb-lg-8">Find a perfect home you love..!</h1>
+            <p class="text-secondary mb-lg-8">Etiam eget elementum elit. Aenean dignissim dapibus vestibulum. Integer a
+              dolor eu sapien sodales vulputate ac in purus.</p>
 
-    <!-- Keep arrows unchanged -->
-    <button class="carousel-control-prev position-absolute top-50 start-0 translate-middle" type="button" data-bs-target="#propertyCarousel" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon rounded-pill" aria-hidden="true"></span>
-    </button>
-    <button class="carousel-control-next position-absolute top-50 start-100 translate-middle" type="button" data-bs-target="#propertyCarousel" data-bs-slide="next">
-      <span class="carousel-control-next-icon rounded-pill" aria-hidden="true"></span>
-    </button>
-  </div>
+            <div id="propertyCarousel" class="carousel slide rounded-4 position-relative" data-bs-ride="carousel">
+              <span class="banner-round position-absolute "></span>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="./assets/images/banner-caresoul.webp" class="d-block w-100 rounded-4" alt="Luxury Room 1">
+                </div>
+                <div class="carousel-item">
+                  <img src="./assets/images/banner-caresoul.webp" class="d-block w-100 rounded-4" alt="Luxury Room 2">
+                </div>
+                <div class="carousel-item">
+                  <img src="./assets/images/banner-caresoul.webp" class="d-block w-100 rounded-4" alt="Luxury Room 3">
+                </div>
+                <div class="carousel-item">
+                  <img src="./assets/images/banner-caresoul.webp" class="d-block w-100 rounded-4" alt="Luxury Room 4">
+                </div>
+              </div>
 
-  <!-- OUTSIDE INDICATORS (full width) -->
-  <div class="carousel-indicators-custom d-flex justify-content-center mt-2 ">
-    <button type="button" data-bs-target="#propertyCarousel" data-bs-slide-to="0" aria-label="Slide 1" ></button>
-    <button type="button" data-bs-target="#propertyCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-    <button type="button" data-bs-target="#propertyCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
-    <button type="button" data-bs-target="#propertyCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
-  </div>
-</div>
+              <!-- Keep arrows unchanged -->
+              <button class="carousel-control-prev position-absolute top-50 start-0 translate-middle" type="button"
+                data-bs-target="#propertyCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon rounded-pill bg-white" aria-hidden="true"></span>
+              </button>
+              <button class="carousel-control-next position-absolute top-50 start-100 translate-middle" type="button"
+                data-bs-target="#propertyCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon rounded-pill" aria-hidden="true"></span>
+              </button>
+            </div>
 
+            <!-- INDICATORS -->
+            <div class="carousel-indicators-custom d-flex justify-content-center mt-2 ">
+              <button type="button" data-bs-target="#propertyCarousel" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#propertyCarousel" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#propertyCarousel" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#propertyCarousel" data-bs-slide-to="3"
+                aria-label="Slide 4"></button>
+            </div>
+          </div>
 
           <!-- Right: Form with Tabs -->
-          <div class="col-lg-4">
-            <div class="card border-0 shadow rounded-4">
+          <div class="col-lg-4 pt-lg-150">
+            <div class="card border-0 rounded-4">
               <div class="card-body p-4">
-                <ul class="nav nav-tabs nav-fill mb-3" id="propertyTab" role="tablist">
+                <ul class="nav nav-tabs nav-fill mb-50 pb-6 pt-8 custom-tabs" id="propertyTab" role="tablist">
                   <li class="nav-item" role="presentation">
                     <button class="nav-link active" id="sale-tab" data-bs-toggle="tab" data-bs-target="#sale"
                       type="button" role="tab" aria-controls="sale" aria-selected="true">For Sale</button>
@@ -187,59 +196,84 @@
                       role="tab" aria-controls="rent" aria-selected="false">For Rent</button>
                   </li>
                 </ul>
+
                 <div class="tab-content" id="propertyTabContent">
                   <!-- Sale Form -->
                   <div class="tab-pane fade show active" id="sale" role="tabpanel" aria-labelledby="sale-tab">
-                    <form>
-                      <div class="mb-3">
-                        <input type="text" class="form-control" placeholder="New York, San Francisco, etc">
+                    <form class="needs-validation" novalidate id="propertyForm">
+                      <div class="mb-6">
+                        <input type="text" class="form-control bg-text-grey rounded-4 py-2"
+                          placeholder="New York, San Francisco, etc" required>
+                        <div class="invalid-feedback">Please enter a city.</div>
                       </div>
-                      <div class="mb-3">
-                        <select class="form-select">
-                          <option selected disabled>Select Property Type</option>
+
+                      <div class="mb-6">
+                        <select class="form-select rounded-4 py-2 bg-text-grey text-light-grey" required>
+                          <option value="" selected disabled>Select Property Type</option>
                           <option>Apartment</option>
                           <option>Villa</option>
                         </select>
+                        <div class="invalid-feedback">Please select a property type.</div>
                       </div>
-                      <div class="mb-3">
-                        <select class="form-select">
-                          <option selected disabled>Select Rooms</option>
+
+                      <div class="mb-4">
+                        <select class="form-select rounded-4 py-2 bg-text-grey text-light-grey" required>
+                          <option value="" selected disabled>Select Rooms</option>
                           <option>1 Room</option>
                           <option>2 Rooms</option>
                           <option>3+ Rooms</option>
                         </select>
+                        <div class="invalid-feedback">Please select number of rooms.</div>
                       </div>
-                      <div class="mb-3">
-                        <a href="#" class="text-primary small">🔍 Advance Search</a>
+
+                      <div class="mb-60">
+                        <a href="#" class="text-primary small text-decoration-none">
+                          <i class="bi bi-sliders"></i> Advance Search
+                        </a>
                       </div>
-                      <button class="btn btn-primary w-100 rounded-pill">Search</button>
+
+                      <button class="btn btn-primary w-100 rounded-pill mb-60 py-2" type="submit"><i
+                          class="bi bi-search"></i>Search</button>
                     </form>
+
                   </div>
                   <!-- Rent Form -->
                   <div class="tab-pane fade" id="rent" role="tabpanel" aria-labelledby="rent-tab">
                     <!-- Similar structure -->
-                    <form>
-                      <div class="mb-3">
-                        <input type="text" class="form-control" placeholder="City, Neighborhood, etc">
+                    <form class="needs-validation" novalidate id="propertyForm">
+                      <div class="mb-6">
+                        <input type="text" class="form-control bg-text-grey rounded-4 py-2"
+                          placeholder="City, Neighborhood, etc" required>
+                        <div class="invalid-feedback">Please enter a city.</div>
                       </div>
-                      <div class="mb-3">
-                        <select class="form-select">
-                          <option selected disabled>Select Property Type</option>
+
+                      <div class="mb-6">
+                        <select class="form-select rounded-4 py-2 bg-text-grey text-light-grey" required>
+                          <option value="" selected disabled>Select Property Type</option>
                           <option>Studio</option>
                           <option>House</option>
                         </select>
+                        <div class="invalid-feedback">Please select a property type.</div>
                       </div>
-                      <div class="mb-3">
-                        <select class="form-select">
-                          <option selected disabled>Number of Rooms</option>
-                          <option>1</option>
-                          <option>2</option>
+
+                      <div class="mb-4">
+                        <select class="form-select rounded-4 py-2 bg-text-grey text-light-grey" required>
+                          <option value="" selected disabled>Select Rooms</option>
+                          <option>1 Room</option>
+                          <option>2 Rooms</option>
+                          <option>3+ Rooms</option>
                         </select>
+                        <div class="invalid-feedback">Please select number of rooms.</div>
                       </div>
-                      <div class="mb-3">
-                        <a href="#" class="text-primary small">🔍 Advance Search</a>
+
+                      <div class="mb-60">
+                        <a href="#" class="text-primary small text-decoration-none">
+                          <i class="bi bi-sliders"></i> Advance Search
+                        </a>
                       </div>
-                      <button class="btn btn-primary w-100 rounded-pill">Search</button>
+
+                      <button class="btn btn-primary w-100 rounded-pill mb-60 py-2" type="submit"><i
+                          class="bi bi-search"></i>Search</button>
                     </form>
                   </div>
                 </div>
@@ -248,30 +282,241 @@
           </div>
         </div>
 
-        <!-- Pills Centered -->
+        <!-- Pills-->
         <div class="d-flex flex-column flex-md-row justify-content-center align-items-center gap-3 mt-5">
-          <div class="rounded-pill bg-white px-4 py-2 shadow-sm d-flex align-items-center gap-2">
-            <img src="images/users.png" width="30" alt="Happy Customers">
-            <span class="fw-medium">72k+ Happy Customers</span>
+          <div class="rounded-pill bg-white px-4 py-2 shadow-sm d-flex align-items-center gap-2 shadow-sm">
+            <div class="avatar-group">
+              <img src="./assets/icons/happy-customer-1.svg" alt="Happy Customers 1" class="">
+              <img src="./assets/icons/happy-customer-2.svg" alt="Happy Customers 2">
+              <img src="./assets/icons/happy-customer-3.svg" alt="Happy Customers 3">
+              <img src="./assets/icons/happy-customer-4.svg" alt="Happy Customers 4">
+              <img src="./assets/icons/happy-customer-5.svg" alt="Happy Customers 5">
+              <img src="./assets/icons/happy-customer-5.svg" alt="Happy Customers 6">
+            </div>
+            <h4 class="fw-medium text-heading-light">72k+ Happy <span class="d-block">Customers</span></h4>
           </div>
-          <div class="rounded-pill bg-white px-4 py-2 shadow-sm d-flex align-items-center gap-2">
-            <img src="images/houses.png" width="30" alt="Listings">
-            <span class="fw-medium">200+ New Listings Everyday!</span>
+
+          <div class="rounded-pill bg-white px-7 py-2 shadow-sm d-flex align-items-center gap-2 shadow-sm">
+            <img src="./assets/icons/new-listing.svg" alt="new listings everyday">
+            <h4 class="fw-medium text-heading-light">200+ New <span class=" d-block">Listings Everyday!</span> </h4>
           </div>
         </div>
       </div>
     </section>
     <!-- Banner Section End -->
 
+    <!-- Companies Section Start-->
+    <section class="trusted-companies py-5">
+      <div class="container">
+        <p class="text-secondary text-center pt-lg-50 pb-lg-60">
+          Trusted by 100+ Companies Across the Globe!
+        </p>
+
+        <!-- Grid for md and up -->
+        <div class="d-none d-md-flex row justify-content-center align-items-center">
+          <div class="col-4 col-sm-3 col-md-2 text-center mb-4">
+            <img src="./assets/icons/google-icon.svg" alt="Google logo" loading="lazy" class="custom-image">
+          </div>
+          <div class="col-4 col-sm-3 col-md-2 text-center mb-4">
+            <img src="./assets/icons/amazon-icon.svg" alt="Amazon logo" loading="lazy" class="custom-image">
+          </div>
+          <div class="col-4 col-sm-3 col-md-2 text-center mb-4">
+            <img src="./assets/icons/logitech-icon.svg" alt="Logitech logo" loading="lazy" class="custom-image">
+          </div>
+          <div class="col-4 col-sm-3 col-md-2 text-center mb-4">
+            <img src="./assets/icons/spotify-icon.svg" alt="Spotify logo" loading="lazy" class="custom-image">
+          </div>
+          <div class="col-4 col-sm-3 col-md-2 text-center mb-4">
+            <img src="./assets/icons/samsung-icon.svg" alt="Samsung logo" loading="lazy" class="custom-image">
+          </div>
+          <div class="col-4 col-sm-3 col-md-2 text-center mb-4">
+            <img src="./assets/icons/netflix-icon.svg" alt="Netflix logo" loading="lazy" class="custom-image">
+          </div>
+        </div>
+
+        <!-- Carousel for sm and below -->
+        <div id="companyCarousel" class="carousel slide d-md-none" data-bs-ride="carousel" data-bs-interval="2000">
+          <div class="carousel-inner text-center pb-lg-8">
+            <div class="carousel-item active">
+              <img src="./assets/icons/google-icon.svg" alt="Google logo" loading="lazy" class="custom-image">
+            </div>
+            <div class="carousel-item">
+              <img src="./assets/icons/amazon-icon.svg" alt="Amazon logo" loading="lazy" class="custom-image">
+            </div>
+            <div class="carousel-item">
+              <img src="./assets/icons/logitech-icon.svg" alt="Logitech logo" loading="lazy" class="custom-image">
+            </div>
+            <div class="carousel-item">
+              <img src="./assets/icons/spotify-icon.svg" alt="Spotify logo" loading="lazy" class="custom-image">
+            </div>
+            <div class="carousel-item">
+              <img src="./assets/icons/samsung-icon.svg" alt="Samsung logo" loading="lazy" class="custom-image">
+            </div>
+            <div class="carousel-item">
+              <img src="./assets/icons/netflix-icon.svg" alt="Netflix logo" loading="lazy" class="custom-image">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Companies Section End-->
+
+    <!-- Real- -->
+    <!-- Our Services Start -->
+    <section class="our-services bg-text-grey">
+      <div class="container">
+      <p class="fs-4 text-heading-light letter-spacing text-center pt-lg-100 pt-sm-4 pb-lg-8">OUR SERVICES</p>
+      <h2 class="heading-dark fw-semibold text-center pb-lg-70 pb-sm-8">Donec porttitor euismod dignissim</h2>
+        <div class="row g-6 pb-124">
+          <div class="col-lg-4 col-md-6">
+            <div class="py-60 shadow rounded-4 bg-white d-flex flex-column align-items-center text-center">
+              <a href="#"
+                class="mb-3 mb-6 shadow-sm d-flex align-items-center justify-content-center bg-accent rounded-circle card-circle">
+                <img src="./assets/icons/new-house.svg" class="img-fluid" alt="new-house icon">
+              </a>
+              <h4 class="fw-semibold text-heading-light">Buy a New Home</h4>
+              <p class="mx-4 text-secondary">Donec porttitor euismod dignissim. Nullam a lacinia ipsum, nec dignissim
+                purus.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="py-60 shadow rounded-4 bg-white d-flex flex-column align-items-center text-center">
+              <a href="#"
+                class="mb-3 mb-6 shadow-sm d-flex align-items-center justify-content-center bg-accent rounded-circle card-circle">
+                <img src="./assets/icons/sell-house.svg" class="img-fluid" alt="sell-house icon">
+              </a>
+              <h4 class="fw-semibold text-heading-light">Buy a New Home</h4>
+              <p class="mx-4 text-secondary">Donec porttitor euismod dignissim. Nullam a lacinia ipsum, nec dignissim
+                purus.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="py-60 shadow rounded-4 bg-white d-flex flex-column align-items-center text-center">
+              <a href="#"
+                class="mb-3 mb-6 shadow-sm d-flex align-items-center justify-content-center bg-accent rounded-circle card-circle">
+                <img src="./assets/icons/rent-house.svg" class="img-fluid" alt="rent-house icon">
+              </a>
+              <h4 class="fw-semibold text-heading-light">Buy a New Home</h4>
+              <p class="mx-4 text-secondary">Donec porttitor euismod dignissim. Nullam a lacinia ipsum, nec dignissim
+                purus.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
+    <!-- Our Services Start -->
+
+
+
   </main>
-  <footer></footer>
+  <footer>
+    <section class="footer-section pt-100">
+      <div class="container">
+
+        <div class="row text-center text-md-start justify-content-center">
+
+          <!-- Footer Brand -->
+          <div class="col-12 col-md-4 mb-4">
+            <div class="footer-brand d-flex flex-column flex-md-row align-items-center align-items-md-start gap-3">
+              <div class="logo p-2">
+                <img src="./assets/icons/logo-house.svg" alt="Rezilla Logo" class="ms-1" />
+              </div>
+              <div>
+                <a class="navbar-brand fs-4 fw-semibold d-inline-block mb-3" href="#">Rezilla</a>
+                <address class="pb-8 text-heading-light fw-medium">
+                  2728 Hickory Street<br>
+                  Salt Lake City, UT 84104
+                </address>
+                <p class="mb-6 text-heading-light fw-medium">
+                  <img src="./assets/icons/footer-phone-icon.svg" alt="telephone-icon">
+                  +1 206-214-2298
+                </p>
+                <p class="text-heading-light fw-medium mb-lg-90">
+                  <img src="./assets/icons/footer-message-icon.svg" alt="message-icon">
+                  support@rezilla.com
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Quick Links -->
+          <div class="col-6 col-md-2 d-none d-md-block">
+            <h4 class="fw-medium mb-lg-8">Quick Links</h4>
+            <ul class="list-unstyled">
+              <li class="mb-1"><a href="#">Home</a></li>
+              <li class="mb-1"><a href="#">About</a></li>
+              <li class="mb-1"><a href="#">Listings</a></li>
+              <li class="mb-1"><a href="#">Services</a></li>
+              <li class="mb-1"><a href="#">Blogs</a></li>
+              <li><a href="#">Become an Agent</a></li>
+            </ul>
+          </div>
+
+          <!-- Discovery -->
+          <div class="col-6 col-md-2 d-none d-md-block">
+            <h4 class="fw-medium mb-lg-8">Discovery</h4>
+            <ul class="list-unstyled">
+              <li class="mb-1"><a href="#">Canada</a></li>
+              <li class="mb-1"><a href="#">United States</a></li>
+              <li class="mb-1"><a href="#">Germany</a></li>
+              <li class="mb-1"><a href="#">Africa</a></li>
+              <li class="mb-1"><a href="#">India</a></li>
+            </ul>
+          </div>
+
+          <!-- Newsletter -->
+          <div class="col-12 col-md-4 text-center text-md-start">
+            <h4 class="fw-medium mb-2">Subscribe to our <span class="d-block">Newsletter!</span></h4>
+            <form class="newsletter-form">
+              <div class="mb-3 mt-2 position-relative">
+                <input type="email" class="form-control p-3 rounded-pill w-100 pe-5" placeholder="Email Address"
+                  pattern=".+@.+\.com" aria-label="Email" required />
+                <button class="btn btn-primary position-absolute top-50 end-0 translate-middle-y me-2 rounded-circle"
+                  type="submit">
+                  <i class="bi bi-arrow-right"></i>
+                </button>
+              </div>
+            </form>
+            <p>Follow Us on</p>
+            <div class="social-icons d-flex justify-content-center justify-content-md-start gap-3 fs-5 mb-4">
+              <a href="#" aria-label="linkedin icon"><img src="./assets/icons/icon-linkdin.svg" alt="linkedin icon"></a>
+              <a href="#" aria-label="facebook icon"><img src="./assets/icons/icon-facebook.svg"
+                  alt="facebook icon"></a>
+              <a href="#" aria-label="instagram icon"><img src="./assets/icons/icon-instagram.svg"
+                  alt="instagram icon"></a>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+    <section class="footer-bottom bg-heading-dark py-3">
+      <div class="container">
+        <div class="d-flex flex-column flex-md-row justify-content-between align-items-center small text-grey">
+          <p class="mb-0">&copy; Rezilla – All rights reserved</p>
+          <ul class="list-inline mb-0 mt-2 mt-md-0">
+            <li class="list-inline-item"><a href="#" class="text-decoration-none text-grey">Terms and Conditions</a>
+            </li>
+            <li class="list-inline-item"><a href="#" class="text-decoration-none text-grey">Privacy Policy</a></li>
+            <li class="list-inline-item"><a href="#" class="text-decoration-none text-grey">Disclaimer</a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </footer>
+  <!-- Footer Bottom -->
+
 
   <!-- Bootstrap JS  -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
     crossorigin="anonymous"></script>
 
   <!-- Your custom JavaScript -->
-  <script src="./js/index.js"></script>
+  <script type="module" src="./js/index.js"></script>
 
 </body>
 

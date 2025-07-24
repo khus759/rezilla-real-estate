@@ -1,0 +1,38 @@
+.footer-section {
+  background: #4361ee1a;
+
+  a {
+    color: $heading-light;
+    text-decoration: none;
+
+    &:hover {
+      color: $primary;
+      text-decoration: underline;
+    }
+  }
+.w-93 {
+    width: 93%;
+  }
+ 
+}
+.newsletter-form {
+    max-width: 500px;
+    margin: auto;
+  }
+
+  .newsletter-wrapper {
+    position: relative;
+  }
+
+  .newsletter-input {
+    padding-right: 50px; 
+  }
+
+  .round-submit {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    padding: 0.5rem 0.75rem;
+    border-radius: 50%;
+  }
