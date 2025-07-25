@@ -107,6 +107,10 @@ $theme-colors: map-merge($map1: $theme-colors, $map2: $custom_theme_colors);
 @import'./sections/header';
 @import './sections/banner';
 @import './sections/companies';
+@import './sections/services';
+@import './sections/properties';
+@import './sections/experts';
+@import './sections/blogs';
 @import './sections/footer';
 
 

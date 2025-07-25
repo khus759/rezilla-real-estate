@@ -1,0 +1,76 @@
+.trending-section {
+  .blog-card {
+    background: transparent;
+    border: none;
+    color: white;
+
+    .card-img-top {
+      border-radius: 1rem;
+      height: 220px;
+      object-fit: cover;
+    }
+
+    .date-badge {
+      position: absolute;
+      top: 0;
+      left: 3rem;
+      background: #fff;
+      color: #000;
+      padding: 0.3rem 0.6rem;
+      border-radius: 0.4rem;
+      font-weight: bold;
+      font-size: 0.9rem;
+      text-align: center;
+
+      span {
+        display: block;
+        font-size: 0.7rem;
+        font-weight: normal;
+      }
+    }
+  }
+
+  .carousel-indicators [data-bs-target] {
+    width: 4.5rem;
+    height: 3px;
+    border-radius: 2px;
+    background-color: #fff;
+    opacity: 1;
+    margin: -2rem 2rem;
+    
+
+    &.active {
+      opacity: 1;
+    }
+  }
+  .custom-icon-btn {
+      width: 48px;
+      height: 48px;
+      border-radius: 50%;
+      background-color: white;
+      color: #3A0CA3;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border: none;
+    }
+
+    .btn-1{
+      position: absolute;
+      top: 75%;
+      left: 23%;
+      margin: 30px; 
+    }
+    .btn-2{
+      position: absolute;
+      top: 75%;
+      left: 61%;
+      margin: 30px;
+    }
+    .btn-3{
+      position: absolute;
+      top: 75%;
+      right: 1%;
+  
+    }
+}

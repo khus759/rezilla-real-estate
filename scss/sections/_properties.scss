@@ -1,0 +1,45 @@
+// .neighborhood-section {
+//   background-color: #fff;
+
+//   .section-subtitle {
+//     font-size: 0.875rem;
+//     letter-spacing: 0.05em;
+//     color: #6a75f3;
+//   }
+
+//   .section-title {
+//     font-size: 2.25rem;
+//     margin-top: 0.5rem;
+//   }
+
+//   .property-card {
+//     text-align: left;
+
+//     img {
+//       object-fit: cover
+//     }
+
+//     .property-info {
+//       padding-top: 0.75rem;
+
+//       .number {
+//         font-size: 1.5rem;
+//         font-weight: bold;
+//         margin: 0;
+//       }
+
+//       .location {
+//         font-size: 0.875rem;
+//         margin: 0;
+//       }
+//     }
+//   }
+// }
+
+.properties-round{
+ background: linear-gradient(180deg, #4361EE 0%, rgba(67, 97, 238, 0) 100%);
+  width: 100px;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+ 
+}
