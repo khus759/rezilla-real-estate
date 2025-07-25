@@ -1,0 +1,68 @@
+// .property-card {
+//   border: none;
+//   border-radius: 12px;
+//   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.05);
+//   transition: transform 0.3s ease;
+
+//   &:hover {
+//     transform: translateY(-5px);
+//   }
+
+//   .card-img-top {
+//     height: 200px;
+//     object-fit: cover;
+//   }
+// }
+// #propertyTabs .nav-link {
+//   border-radius: 999px;
+//   border: 1px solid var(--bs-primary);
+//   padding: 0.5rem 1rem;
+// }
+// @media (min-width: 992px) {
+//   #propertyTabs {
+//     justify-content: flex-end !important;
+//     margin-left: 0;
+//   }
+// }
+
+// .propertySwiper {
+//   overflow: hidden;
+// }
+
+
+
+.propertySwiper {
+  overflow: hidden;
+}
+
+.property-card {
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease;
+  overflow: hidden;
+
+  &:hover {
+    transform: translateY(-5px);
+  }
+
+  .card-img-top {
+    height: 200px;
+    object-fit: cover;
+    display: block;
+    width: 100%;
+  }
+}
+
+#propertyTabs .nav-link {
+  border-radius: 999px;
+  border: 1px solid var(--bs-primary);
+  padding: 0.5rem 1rem;
+}
+
+@media (min-width: 992px) {
+  #propertyTabs {
+    justify-content: flex-end !important;
+    margin-left: 0;
+  }
+}

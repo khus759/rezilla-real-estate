@@ -1,0 +1,30 @@
+.pt-217{
+    padding-top: 217px;
+}
+
+// .testimonial-indicators {
+//   position: absolute;
+//   top: 50%;
+//   right: -20px;
+//   transform: translateY(-50%);
+//   display: flex;
+//   flex-direction: column;
+//   gap: 10px;
+// }
+// .right-side{
+//     left: 90%;
+// }
+.custom-carousel-indicators {
+  position: relative;
+  top: 47%;
+  left: 20%;
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem; /* gap-2 ka equivalent Bootstrap me 0.5rem hota hai */
+}
+
+
+
+
+
