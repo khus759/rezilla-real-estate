@@ -47,9 +47,6 @@
     opacity: 1;
     transition: background-color 0.3s ease;
 
-    &.active {
-      background-color: $primary;
-    }
 
     @media (min-width: 576px) {
       height: 2px;
@@ -98,7 +95,7 @@
 }
 
 .custom-tabs .nav-link.active {
-  color: $primary;
+  color: $primary !important;
 }
 
 .banner-round {
@@ -109,7 +106,6 @@
   left: 94%;
   top: -9%;
 }
-
 
 .avatar-group {
   display: flex;

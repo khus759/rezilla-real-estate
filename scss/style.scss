@@ -7,6 +7,12 @@ $heading-dark: #0B090A;
 $heading-light: #2B2B2B;
 $light-grey: #6D6A7580;
 $grey: #AAAAAA;
+$blue: #D7EEFF;
+$green: #F1FFF1;
+$red: #FFE1E1;
+$dark-green :#006400;
+$dark-red: #8B0000;
+
 
 $custom_theme_colors: (
   "accent": $accent,
@@ -15,6 +21,11 @@ $custom_theme_colors: (
   "heading-light": $heading-light,
   "light-grey": $light-grey,
   "grey": $grey,
+  "blue":$blue,
+  "green":$green,
+  "red":$red,
+  "dark-green": $dark-green,
+  "dark-red": $dark-red,
 );
 
 $line-height-base:  1.5;
@@ -63,7 +74,7 @@ $spacers: (
   7: $spacer * 3.5, // 35px
   8: $spacer * 4,   // 40px
   50: $spacer * 5,   // 50px
-  52: $spacer * 5.2,   //52  
+  52: $spacer * 5.2,   //52 
   60: $spacer * 6,   // 60px
   70: $spacer * 7,   // 70px
   80: $spacer * 8,   // 80px
