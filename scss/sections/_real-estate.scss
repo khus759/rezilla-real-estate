@@ -1,4 +1,12 @@
-
+.estate-round {
+  background: linear-gradient(180deg, #4361EE 0%, rgba(67, 97, 238, 0) 100%);
+  width: 50px;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  left: 75%;
+  top: 79%;
+  position: absolute;
+}
 
 .real-estate {
   .banner-images {
@@ -32,7 +40,7 @@
       right: 15%;
       z-index: 3;
     }
-}
+  }
 
   // Info box style
   .info-box {
@@ -90,7 +98,7 @@
         right: auto !important;
         bottom: auto !important;
         left: auto !important;
-        
+
       }
 
       .circle-badge {
@@ -116,7 +124,7 @@
         width: 100px;
       }
     }
-    
+
   }
 }
 
@@ -142,4 +150,3 @@
     }
   }
 }
-

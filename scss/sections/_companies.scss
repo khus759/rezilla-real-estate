@@ -3,5 +3,13 @@
     mix-blend-mode: luminosity;
     background-color: transparent;
 }
-
+.company-round {
+background: linear-gradient(180deg, #4361EE 0%, rgba(67, 97, 238, 0) 100%);
+  width: 100px;
+  position:absolute;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  left: 7%;
+ bottom: 132%;
+}
 

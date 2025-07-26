@@ -104,6 +104,7 @@ $theme-colors: map-merge($map1: $theme-colors, $map2: $custom_theme_colors);
 @import './sections/experts';
 @import './sections/blogs';
 @import './sections/testimonials';
+@import './sections/become-agent';
 @import './sections/footer';
 
 
