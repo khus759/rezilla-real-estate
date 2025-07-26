@@ -1,30 +1,43 @@
-.pt-217{
-    padding-top: 217px;
+.pt-217 {
+  padding-top: 217px;
 }
 
-// .testimonial-indicators {
-//   position: absolute;
-//   top: 50%;
-//   right: -20px;
-//   transform: translateY(-50%);
-//   display: flex;
-//   flex-direction: column;
-//   gap: 10px;
-// }
-// .right-side{
-//     left: 90%;
-// }
+
 .custom-carousel-indicators {
   position: relative;
-  top: 47%;
-  left: 20%;
-  transform: translateY(-50%);
+  bottom: 4%;
+  left: 83%;
+  transform: translateY(-150%);
   display: flex;
   flex-direction: column;
-  gap: 0.5rem; /* gap-2 ka equivalent Bootstrap me 0.5rem hota hai */
+  gap: 0.5rem;
+  z-index: 2;
+}
+
+.testimonials-round {
+  background: linear-gradient(180deg, #4361EE 0%, rgba(67, 97, 238, 0) 100%);
+  width: 50px;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  top: 20%;
+  position: absolute;
+  left: 0%;
+}
+
+@media(max-width: 768px) {
+  .testimonials-round {
+    top: 3%;
+    left: 80%;
+  }
 }
 
 
 
+.testimonials {
+  .carousel-indicators [data-bs-target] {
 
+    width: 5px;
+    height: 34px;
+  }
 
+}

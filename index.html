@@ -858,62 +858,59 @@
     <!-- Our Services Start -->
 
     <!-- Neighborhood Properties Start -->
-    <section class="py-5 bg-light">
+    <section class="py-5 bg-light position-relative">
       <div class="container">
-        <div class="">
-          <h2 class="fs-4 letter-spacing text-accent fw-normal">AREAS ACROSS THE TOWN</h2>
-          <h3 class="fw-semibold mb-5 text-heading-light">Neighborhood Properties</h3>
-        </div>
+        <span class="position-absolute top-25 start-50 translate-middle-x properties-top"></span>
+        <h2 class="fs-4 letter-spacing text-accent fw-normal pt-lg-150 pt-8 pb-6 ">AREAS ACROSS THE TOWN</h2>
+        <h2 class="fw-semibold mb-5 text-heading-light">Neighborhood Properties</h2>
 
-
-        <!-- First Row: 3 Images -->
-        <div class="row gx-0">
-          <div class="col-12 col-md-4">
+        <!-- First Row -->
+        <div class="row gx-0 justify-content-center">
+          <div class="col-12 col-md-4 ">
             <div class="position-relative">
-              <img src="./assets/images/property-1.webp" alt="New York City" class="img-fluid ">
-              <div class="position-absolute bottom-0 start-0 text-white">
-                <p class="mb-0 fw-semibold text-dark-green">216</p>
-                <p class="mb-0 small text-dark-green">New York City, NY</p>
+              <img src="./assets/images/property-1.webp" class="img-fluid" alt="Property 1">
+              <div class="badge text-white position-absolute text-badage m-4 p-2 fs-2">
+                216 <span class="d-block fs-4 fw-normal">New York City, NY</span>
               </div>
             </div>
           </div>
-          <div class="col-12 col-md-4">
+
+          <div class="col-12 col-md-4 ">
             <div class="position-relative">
-              <img src="./assets/images/property-2.webp" alt="Houston" class="img-fluid">
-              <div class="position-absolute bottom-0 start-0 text-white ">
-                <p class="mb-0 fw-semibold text-dark-green">141</p>
-                <p class="mb-0 small text-dark-green">Houston, TX</p>
+              <img src="./assets/images/property-2.webp" class="img-fluid" alt="Property 2">
+              <div class="badge text-white position-absolute text-badage m-4 p-2 fs-2">
+                141 <span class="d-block fs-4 fw-normal">Houston, TX</span>
               </div>
             </div>
           </div>
-          <div class="col-12 col-md-4">
+
+          <div class="col-12 col-md-4 ">
             <div class="position-relative">
-              <img src="./assets/images/property-3.webp" alt="San Diego" class="img-fluid">
-              <div class="position-absolute bottom-0 start-0 text-white ">
-                <p class="mb-0 fw-semibold text-dark-green">212</p>
-                <p class="mb-0 small text-dark-green">San Diego, CA</p>
+              <img src="./assets/images/property-3.webp" class="img-fluid" alt="Property 3">
+              <div class="badge text-white position-absolute text-badage m-4 p-2 fs-2">
+                212 <span class="d-block fs-4 fw-normal">San Diego, CA</span>
               </div>
             </div>
           </div>
         </div>
 
-        <!-- Second Row: 2 Images -->
-        <div class="row gx-0 r">
+        <!-- Second Row -->
+        <div class="row gx-0 mt-0 mb-lg-150 mb-50 justify-content-center">
           <div class="col-12 col-md-6">
             <div class="position-relative">
-              <img src="./assets/images/property-4.webp" alt="Philadelphia" class="img-fluid w-100">
-              <div class="position-absolute bottom-0 start-0 text-white p-3  w-100">
-                <p class="mb-0 fw-semibold text-dark-green">183</p>
-                <p class="mb-0 small text-dark-green">Philadelphia, PA</p>
+              <img src="./assets/images/property-4.webp" class="img-fluid" alt="Property 4">
+              <div class="badge text-white position-absolute text-badage m-4 p-2 fs-2">
+                183<span class="d-block fs-4 fw-normal">Philadelphia, PA</span>
               </div>
             </div>
           </div>
+
           <div class="col-12 col-md-6">
-            <div class="position-relative">
-              <img src="./assets/images/property-5.webp" alt="San Francisco" class="img-fluid ">
-              <div class="position-absolute bottom-0 start-0 ">
-                <p class="mb-0 fw-semibold bg-dark bg-opacity-50 text-dark-green">112</p>
-                <p class="mb-0 small text-dark-green">San Francisco, CA</p>
+            <div class="position-relative image-6">
+              <span class="properties-bottom position-absolute start-50 translate-middle-x d-none d-lg-block"></span>
+              <img src="./assets/images/property-5.webp" class="img-fluid" alt="Property 5">
+              <div class="badge text-white position-absolute text-badage m-4 p-2 fs-2">
+                112 <span class="d-block fs-4 fw-normal">San Francisco, CA</span>
               </div>
             </div>
           </div>
@@ -1161,7 +1158,7 @@
     <!-- Testimonials Start-->
     <section class="testimonials">
       <div class="container">
-        <div class="row justify-content-between align-items-start">
+        <div class="row justify-content-evenly align-items-start">
 
           <!-- Left Column -->
           <div class="col-12 col-lg-6 pt-lg-150 pt-4">
@@ -1173,7 +1170,7 @@
             </p>
 
             <!-- Carousel Buttons -->
-            <div class="d-flex gap-3 pt-3">
+            <div class="d-flex gap-3 pt-3 ">
               <button class="carousel-control-prev position-static" type="button" data-bs-target="#testimonialCarousel"
                 data-bs-slide="prev">
                 <span
@@ -1195,13 +1192,15 @@
           </div>
 
           <!-- Right Column -->
-          <div class="col-12 col-md-10 col-lg-4 pt-lg-150 pt-4 position-relative">
+          <div class="col-12 col-md-10 col-lg-4 pt-lg-150 pt-50 position-relative overflow-x-hidden">
+            <span class="testimonials-round"></span>
+
             <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="6000">
               <div class="carousel-inner">
 
                 <!-- Slide 1 -->
-                <div class="carousel-item active">
-                  <div class="testimonial-card rounded-4 shadow-lg p-4">
+                <div class="carousel-item active bg-white rounded-4">
+                  <div class="testimonial-card rounded-4 shadow-lg p-4 ">
                     <img src="./assets/icons/double_quote.svg" alt="quote" class="img-fluid mb-3">
                     <p class="fw-medium text-heading-light">
                       I highly recommend Jodi J. Appleby. She was attentive to our needs and worked tirelessly to find
@@ -1219,8 +1218,8 @@
                 </div>
 
                 <!-- Slide 2 -->
-                <div class="carousel-item">
-                  <div class="testimonial-card rounded-4 shadow-sm p-4">
+                <div class="carousel-item bg-white rounded-4 ">
+                  <div class="testimonial-card rounded-4 shadow-sm p-3">
                     <img src="./assets/icons/double_quote.svg" alt="quote" class="img-fluid mb-3">
                     <p class="fw-medium text-heading-light">
                       I highly recommend Jodi J. Appleby. She was attentive to our needs and worked tirelessly to find
@@ -1237,7 +1236,7 @@
                 </div>
 
                 <!-- Slide 3 -->
-                <div class="carousel-item">
+                <div class="carousel-item bg-white rounded-4">
                   <div class="testimonial-card rounded-4 shadow-sm p-4">
                     <img src="./assets/icons/double_quote.svg" alt="quote" class="img-fluid mb-3">
                     <p class="fw-medium text-heading-light">
@@ -1253,7 +1252,6 @@
                     </div>
                   </div>
                 </div>
-
               </div>
 
 
@@ -1262,14 +1260,14 @@
                 <!-- Push outside the card -->
 
                 <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="0"
-                  class="active bg-primary" aria-current="true" aria-label="Slide 1"
-                  style="width: 4px; height: 25px; border-radius: 3px;"></button>
+                  class="active bg-primary slider-vertical" aria-current="true" aria-label="Slide 1"
+                 ></button>
 
                 <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="1" class="bg-primary"
-                  aria-label="Slide 2" style="width: 4px; height: 25px; border-radius: 3px;"></button>
+                  aria-label="Slide 2"></button>
 
                 <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="2" class="bg-primary"
-                  aria-label="Slide 3" style="width: 4px; height: 25px; border-radius: 3px;"></button>
+                  aria-label="Slide 3" ></button>
               </div>
             </div>
           </div>

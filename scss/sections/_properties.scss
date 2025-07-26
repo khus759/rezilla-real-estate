@@ -1,16 +1,39 @@
-
-
-.properties-top{
- background: linear-gradient(180deg, #4361EE 0%, rgba(67, 97, 238, 0) 100%);
+.properties-top {
+  background: linear-gradient(180deg, #4361EE 0%, rgba(67, 97, 238, 0) 100%);
   width: 50px;
   aspect-ratio: 1/1;
   border-radius: 50%;
- 
+  top: 4%;
 }
-.properties-bottom{
- background: linear-gradient(180deg, #4361EE 0%, rgba(67, 97, 238, 0) 100%);
+
+.properties-bottom {
+  background: linear-gradient(180deg, #4361EE 0%, rgba(67, 97, 238, 0) 100%);
   width: 100px;
   aspect-ratio: 1/1;
   border-radius: 50%;
- 
+  bottom: -12rem;
+}
+
+.text-badage {
+  bottom: 2rem;
+  left: 1rem;
+}
+
+.img-6{
+  max-width: 121%;
+  height: 100%;
+}
+
+.ms-40{
+  margin-left: 40px;
+}
+
+@media (max-width: 992px){
+  
+.img-6{
+  max-width: 136%;
+  height: 100%;
+}
+
+
 }
