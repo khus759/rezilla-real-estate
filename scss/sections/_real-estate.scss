@@ -51,7 +51,12 @@
     background: #fff;
     border-radius: 20px;
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+  }
+}
 
+@media (min-width: 991.98px) {
+  .info-box{
+  width: 65%;
   }
 }
 

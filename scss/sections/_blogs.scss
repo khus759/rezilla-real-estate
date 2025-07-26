@@ -38,10 +38,9 @@
     opacity: 1;
     margin: -2rem 2rem;
     
-
-    &.active {
-      opacity: 1;
-    }
+    // &.active {
+    //   opacity: 1;
+    // }
   }
   .custom-icon-btn {
       width: 48px;
@@ -57,19 +56,19 @@
 
     .btn-1{
       position: absolute;
-      top: 75%;
+      top: 63%;
       left: 23%;
       margin: 30px; 
     }
     .btn-2{
       position: absolute;
-      top: 75%;
+      top: 63%;
       left: 61%;
       margin: 30px;
     }
     .btn-3{
       position: absolute;
-      top: 80%;
+      top: 68%;
       right: 1%;
   
     }
