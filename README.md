@@ -24,3 +24,6 @@ cd rezilla-real-estate
 
 # Listed properties preview
 ![alt text](image-1.png)
+
+# Netifly
+https://clinquant-dragon-6c8ddd.netlify.app/
