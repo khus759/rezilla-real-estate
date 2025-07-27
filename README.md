@@ -26,4 +26,4 @@ cd rezilla-real-estate
 ![alt text](/assets/images/image-1.png)
 
 # Netifly
-https://clinquant-dragon-6c8ddd.netlify.app/
+https://amazing-rabanadas-a04b87.netlify.app/
