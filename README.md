@@ -20,10 +20,10 @@ cd rezilla-real-estate
 
 
 # Homepage Preview
-![alt text](image.png)
+![alt text](/assets/images/image.png)
 
 # Listed properties preview
-![alt text](image-1.png)
+![alt text](/assets/images/image-1.png)
 
 # Netifly
 https://clinquant-dragon-6c8ddd.netlify.app/
